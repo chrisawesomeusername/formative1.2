@@ -1,0 +1,14 @@
+.mainContainer {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: tomato; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=style.css.map */
