@@ -1,14 +1,40 @@
-.mainContainer {
-  width: 80%;
-  height: 300px;
-  margin: 0 auto;
-  background-color: tomato; }
-
 * {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
   box-sizing: border-box; }
+
+.header {
+  background-image: url(../images/pancake.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 300px; }
+
+.logo {
+  display: inline;
+  width: 200px;
+  margin: 0 auto; }
+  .logo img {
+    width: inherit;
+    padding: 10px; }
+
+.navSection {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 20px grey; }
+
+.contentConatiner {
+  width: 70%;
+  height: auto;
+  margin: 0 auto; }
+
+.mainContent {
+  width: auto;
+  height: 300px; }
+
+body {
+  height: 4000px; }
 
 /*# sourceMappingURL=style.css.map */

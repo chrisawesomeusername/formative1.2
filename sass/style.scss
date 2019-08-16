@@ -1,4 +1,13 @@
-
-@import 'test';
 @import 'cssReset';
+@import 'mixins';
+@import 'variables';
 @import 'image';
+@import 'navSection';
+@import 'content';
+@import 'mainContent';
+@import 'test';
+
+
+body{
+  height: 4000px;
+}

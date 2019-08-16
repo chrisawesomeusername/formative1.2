@@ -1,0 +1,26 @@
+.header{
+  background-image: url(../images/pancake.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+
+  // width: 70%;
+  // margin: 0 auto;
+
+  height: 300px;
+
+
+}
+
+
+
+
+.logo{
+  display: inline;
+  width: 200px;
+  margin: 0 auto;
+  img{
+    width: inherit;
+    padding: 10px;
+  }
+}
