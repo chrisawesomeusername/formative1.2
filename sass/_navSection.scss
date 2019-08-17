@@ -3,3 +3,13 @@
   height: auto;
   box-shadow: 0px 0px 20px grey;
 }
+
+.nav{
+  float: right;
+  text-align: center;
+  padding: 20px;
+  ul li{
+    display: inline;
+    border: solid 2px blue;
+  }
+}
