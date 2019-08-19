@@ -5,10 +5,8 @@
   background-position: top;
   background-repeat: no-repeat;
 
-  // width: 70%;
-  // margin: 0 auto;
 
-  height: 400px;
+  height: 150px;
 
 
 }
@@ -17,11 +15,14 @@
 
 
 .logo{
-  display: inline;
+  display: block;
+  // box-shadow: 0px 0px 20px grey;
   width: 200px;
   margin: 0 auto;
-  img{
-    width: inherit;
-    padding: 10px;
+    img{
+      width: inherit;
+      padding: 5px;
+
+
   }
 }
