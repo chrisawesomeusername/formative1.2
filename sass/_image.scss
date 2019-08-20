@@ -1,15 +1,15 @@
-.header{
-  background-image: url(../images/pancake.jpg);
-  background-size: contain;
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-
-
-  height: 150px;
-
-
-}
+// .header{
+//   background-image: url(../images/pancake.jpg);
+//   background-size: contain;
+//   background-attachment: fixed;
+//   background-position: top;
+//   background-repeat: no-repeat;
+//
+//
+//   height: 150px;
+//
+//
+// }
 
 
 
@@ -22,7 +22,17 @@
     img{
       width: inherit;
       padding: 5px;
+    }
+}
 
 
-  }
+.bookImage{
+  background-image: url("../images/content1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  // text-align: center;
+  min-width: 100%;
+  min-height: 400px;
 }

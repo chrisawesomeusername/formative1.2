@@ -5,10 +5,12 @@
 @import 'navSection';
 @import 'content';
 @import 'mainContent';
+@import 'text';
+
+
 @import 'test';
 
 
-body{
-  height: 4000px;
-  font-family: helvetica;
+body{  
+  font-family: 'Abel', sans-serif;
 }
