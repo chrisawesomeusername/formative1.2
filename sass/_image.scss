@@ -34,5 +34,23 @@
   position: relative;
   // text-align: center;
   min-width: 100%;
-  min-height: 400px;
+  min-height: 250px;
+}
+
+.specialsImage{
+  background-image: url("../images/content2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  // text-align: center;
+  min-width: 100%;
+  min-height: 250px;
+}
+
+
+
+.foot{
+  text-align: center;
+  margin: auto;
 }
