@@ -19,15 +19,19 @@
   // box-shadow: 0px 0px 20px grey;
   width: 200px;
   margin: 0 auto;
+  a{
+    width: inherit;
     img{
       width: inherit;
       padding: 5px;
     }
+  }
 }
 
 
 .bookImage{
   background-image: url("../images/content1.jpg");
+  z-index: 2;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -38,14 +42,14 @@
 }
 
 .specialsImage{
-  background-image: url("../images/content2.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top;
-  position: relative;
-  // text-align: center;
-  min-width: 100%;
-  min-height: 250px;
+  width: auto;
+  img{
+  // background-image: url("../images/content2.jpg");
+  z-index: -2;
+  position: absolute;
+  width: 90%;
+  margin: 0 auto;
+}
 }
 
 
@@ -53,4 +57,28 @@
 .foot{
   text-align: center;
   margin: auto;
+  margin-bottom: 50px;
+
+}
+
+
+//media for ipad
+
+@media only screen and (min-width:768px){
+  .bookImage{
+    min-width: 100%;
+    min-height: 350px;
+
+    margin-bottom: 40px;
+  }
+
+  .specialsImage{
+    min-width: 100%;
+    min-height: 350px;
+
+    margin-bottom: 40px;
+  }
+
+
+
 }

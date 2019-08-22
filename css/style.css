@@ -9,12 +9,15 @@
   display: block;
   width: 200px;
   margin: 0 auto; }
-  .logo img {
-    width: inherit;
-    padding: 5px; }
+  .logo a {
+    width: inherit; }
+    .logo a img {
+      width: inherit;
+      padding: 5px; }
 
 .bookImage {
   background-image: url("../images/content1.jpg");
+  z-index: 2;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -23,18 +26,28 @@
   min-height: 250px; }
 
 .specialsImage {
-  background-image: url("../images/content2.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top;
-  position: relative;
-  min-width: 100%;
-  min-height: 250px; }
+  width: auto; }
+  .specialsImage img {
+    z-index: -2;
+    position: absolute;
+    width: 90%;
+    margin: 0 auto; }
 
 .foot {
   text-align: center;
-  margin: auto; }
+  margin: auto;
+  margin-bottom: 50px; }
 
+@media only screen and (min-width: 768px) {
+  .bookImage {
+    min-width: 100%;
+    min-height: 350px;
+    margin-bottom: 40px; }
+
+  .specialsImage {
+    min-width: 100%;
+    min-height: 350px;
+    margin-bottom: 40px; } }
 .navSection {
   width: 100%;
   height: auto;
@@ -71,6 +84,9 @@
 .mainText {
   font-family: 'Abel', sans-serif; }
 
+.aboutText {
+  display: none; }
+
 .nav ul li a {
   color: black;
   font-size: 20px; }
@@ -82,6 +98,7 @@
 
 .buttonText {
   text-align: center;
+  position: relative;
   margin: auto;
   width: 250px;
   font-size: 40px;
@@ -114,5 +131,22 @@
   height: 36px;
   text-align: center;
   margin: 40px auto; }
+
+@media only screen and (min-width: 768px) {
+  .aboutText {
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    margin: 30px auto;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-variant: small-caps; }
+
+  .hours {
+    float: none;
+    margin: 140px auto 0px auto; } }
 
 /*# sourceMappingURL=style.css.map */

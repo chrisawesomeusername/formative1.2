@@ -7,6 +7,9 @@
   font-family: 'Abel', sans-serif;
 }
 
+.aboutText{
+  display: none;
+}
 
 .nav{
     ul{
@@ -29,6 +32,7 @@
 
 .buttonText{
   text-align: center;
+  position: relative;
   margin: auto;
   width: 250px;
   font-size: 40px;
@@ -56,6 +60,7 @@
 
 
 .endText{
+
   font-family: Georgia;
   font-weight: 400;
   font-size: 11px;
@@ -66,4 +71,34 @@
   text-align: center;
   margin: 40px auto;
 
+}
+
+
+//media for ipad
+
+@media only screen and (min-width:768px){
+  .aboutText{
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    margin: 30px auto;
+
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+  }
+
+  .btn{
+    // padding-top: 130px;
+    }
+
+
+
+  .hours{
+    float: none;
+    margin: 140px auto 0px auto;
+  }
 }
