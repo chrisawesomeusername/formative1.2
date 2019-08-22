@@ -25,6 +25,7 @@
 
 .btn{
   padding-top: 80px;
+  padding-bottom: 80px;
   width: 250px;
   margin: 0 auto;
   // max-width: 400px;
@@ -46,16 +47,23 @@
   color: white;
   background: rgba(0,0,0,0.5);
   width: 200px;
-  margin-top: 18px;
+  // margin-top: 18px;
+  position: relative;
+  bottom: 62px;
 }
 
 .hours::after{
   clear: both;
 }
 .times{
+  z-index: -2;
   text-align: right;
   padding-right: 10px;
   opacity: 2;
+}
+
+.menuImage{
+  display: none;
 }
 
 
@@ -69,7 +77,7 @@
   width: 331px;
   height: 36px;
   text-align: center;
-  margin: 40px auto;
+  margin: 10px auto;
 
 }
 
@@ -91,14 +99,23 @@
     font-variant: small-caps;
   }
 
-  .btn{
-    // padding-top: 130px;
+  .hours{
+    bottom: 78px;
+  }
+
+  .menuImage{
+    display: block;
+    img{
+      display: block;
+      }
+    }
+  }
+
+//media for desktop
+
+  @media only screen and (min-width:1440px){
+    .aboutText{
+      font-size: 20px;
     }
 
-
-
-  .hours{
-    float: none;
-    margin: 140px auto 0px auto;
   }
-}
