@@ -66,6 +66,10 @@
   display: none;
 }
 
+.form{
+  display: none;
+}
+
 
 .endText{
 
@@ -78,6 +82,7 @@
   height: 36px;
   text-align: center;
   margin: 10px auto;
+  padding: 100px 0px;
 
 }
 
@@ -111,11 +116,21 @@
     }
   }
 
+
+
+
 //media for desktop
 
   @media only screen and (min-width:1440px){
+
     .aboutText{
       font-size: 20px;
     }
+
+    .endText{
+      font-size: 20px;
+      width: 700px;
+    }
+
 
   }

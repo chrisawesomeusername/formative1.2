@@ -140,6 +140,9 @@
 .menuImage {
   display: none; }
 
+.form {
+  display: none; }
+
 .endText {
   font-family: Georgia;
   font-weight: 400;
@@ -149,7 +152,8 @@
   width: 331px;
   height: 36px;
   text-align: center;
-  margin: 10px auto; }
+  margin: 10px auto;
+  padding: 100px 0px; }
 
 @media only screen and (min-width: 768px) {
   .aboutText {
@@ -173,8 +177,54 @@
       display: block; } }
 @media only screen and (min-width: 1440px) {
   .aboutText {
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .endText {
+    font-size: 20px;
+    width: 700px; } }
 .form {
-  border: 2px solid red; }
+  display: none; }
+
+@media only screen and (min-width: 768px) {
+  .form {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 300px;
+    margin: 0 auto; }
+
+  .contactHeader {
+    font-size: 30px;
+    padding: 20px 0px;
+    text-align: center; }
+
+  .npeSec {
+    width: 80%;
+    margin: 0 auto; }
+
+  .col1 {
+    float: left; }
+
+  .col2 {
+    float: left; }
+
+  .col3 {
+    float: left; }
+
+  .cols {
+    display: inline-block;
+    width: 33.3%; }
+
+  .input {
+    width: 95%;
+    display: block; }
+
+  .message {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto; }
+    .message #message {
+      width: 100%;
+      height: 100px; } }
 
 /*# sourceMappingURL=style.css.map */
